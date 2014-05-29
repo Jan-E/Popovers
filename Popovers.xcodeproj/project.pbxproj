@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D28A3DAA1937EDE100690583 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A3DA91937EDE100690583 /* Foundation.framework */; };
+		D28A3DAC1937EDE100690583 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A3DAB1937EDE100690583 /* CoreGraphics.framework */; };
+		D28A3DAE1937EDE100690583 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A3DAD1937EDE100690583 /* UIKit.framework */; };
+		D28A3DB41937EDE100690583 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D28A3DB21937EDE100690583 /* InfoPlist.strings */; };
+		D28A3DB61937EDE100690583 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D28A3DB51937EDE100690583 /* main.m */; };
+		D28A3DBA1937EDE100690583 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D28A3DB91937EDE100690583 /* AppDelegate.m */; };
+		D28A3DBD1937EDE100690583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28A3DBB1937EDE100690583 /* Main.storyboard */; };
+		D28A3DC01937EDE100690583 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D28A3DBF1937EDE100690583 /* ViewController.m */; };
+		D28A3DC21937EDE100690583 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28A3DC11937EDE100690583 /* Images.xcassets */; };
+		D28A3DC91937EDE100690583 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A3DC81937EDE100690583 /* XCTest.framework */; };
+		D28A3DCA1937EDE100690583 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A3DA91937EDE100690583 /* Foundation.framework */; };
+		D28A3DCB1937EDE100690583 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A3DAD1937EDE100690583 /* UIKit.framework */; };
+		D28A3DD31937EDE100690583 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D28A3DD11937EDE100690583 /* InfoPlist.strings */; };
+		D28A3DD51937EDE100690583 /* PopoversTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D28A3DD41937EDE100690583 /* PopoversTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D28A3DCC1937EDE100690583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D28A3D9E1937EDE100690583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D28A3DA51937EDE100690583;
+			remoteInfo = Popovers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D28A3DA61937EDE100690583 /* Popovers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Popovers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28A3DA91937EDE100690583 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D28A3DAB1937EDE100690583 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D28A3DAD1937EDE100690583 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D28A3DB11937EDE100690583 /* Popovers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Popovers-Info.plist"; sourceTree = "<group>"; };
+		D28A3DB31937EDE100690583 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D28A3DB51937EDE100690583 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D28A3DB71937EDE100690583 /* Popovers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Popovers-Prefix.pch"; sourceTree = "<group>"; };
+		D28A3DB81937EDE100690583 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D28A3DB91937EDE100690583 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D28A3DBC1937EDE100690583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D28A3DBE1937EDE100690583 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D28A3DBF1937EDE100690583 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D28A3DC11937EDE100690583 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D28A3DC71937EDE100690583 /* PopoversTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopoversTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28A3DC81937EDE100690583 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D28A3DD01937EDE100690583 /* PopoversTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopoversTests-Info.plist"; sourceTree = "<group>"; };
+		D28A3DD21937EDE100690583 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D28A3DD41937EDE100690583 /* PopoversTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopoversTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D28A3DA31937EDE100690583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28A3DAC1937EDE100690583 /* CoreGraphics.framework in Frameworks */,
+				D28A3DAE1937EDE100690583 /* UIKit.framework in Frameworks */,
+				D28A3DAA1937EDE100690583 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28A3DC41937EDE100690583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28A3DC91937EDE100690583 /* XCTest.framework in Frameworks */,
+				D28A3DCB1937EDE100690583 /* UIKit.framework in Frameworks */,
+				D28A3DCA1937EDE100690583 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D28A3D9D1937EDE100690583 = {
+			isa = PBXGroup;
+			children = (
+				D28A3DAF1937EDE100690583 /* Popovers */,
+				D28A3DCE1937EDE100690583 /* PopoversTests */,
+				D28A3DA81937EDE100690583 /* Frameworks */,
+				D28A3DA71937EDE100690583 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D28A3DA71937EDE100690583 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D28A3DA61937EDE100690583 /* Popovers.app */,
+				D28A3DC71937EDE100690583 /* PopoversTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D28A3DA81937EDE100690583 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D28A3DA91937EDE100690583 /* Foundation.framework */,
+				D28A3DAB1937EDE100690583 /* CoreGraphics.framework */,
+				D28A3DAD1937EDE100690583 /* UIKit.framework */,
+				D28A3DC81937EDE100690583 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D28A3DAF1937EDE100690583 /* Popovers */ = {
+			isa = PBXGroup;
+			children = (
+				D28A3DB81937EDE100690583 /* AppDelegate.h */,
+				D28A3DB91937EDE100690583 /* AppDelegate.m */,
+				D28A3DBB1937EDE100690583 /* Main.storyboard */,
+				D28A3DBE1937EDE100690583 /* ViewController.h */,
+				D28A3DBF1937EDE100690583 /* ViewController.m */,
+				D28A3DC11937EDE100690583 /* Images.xcassets */,
+				D28A3DB01937EDE100690583 /* Supporting Files */,
+			);
+			path = Popovers;
+			sourceTree = "<group>";
+		};
+		D28A3DB01937EDE100690583 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D28A3DB11937EDE100690583 /* Popovers-Info.plist */,
+				D28A3DB21937EDE100690583 /* InfoPlist.strings */,
+				D28A3DB51937EDE100690583 /* main.m */,
+				D28A3DB71937EDE100690583 /* Popovers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D28A3DCE1937EDE100690583 /* PopoversTests */ = {
+			isa = PBXGroup;
+			children = (
+				D28A3DD41937EDE100690583 /* PopoversTests.m */,
+				D28A3DCF1937EDE100690583 /* Supporting Files */,
+			);
+			path = PopoversTests;
+			sourceTree = "<group>";
+		};
+		D28A3DCF1937EDE100690583 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D28A3DD01937EDE100690583 /* PopoversTests-Info.plist */,
+				D28A3DD11937EDE100690583 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D28A3DA51937EDE100690583 /* Popovers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28A3DD81937EDE100690583 /* Build configuration list for PBXNativeTarget "Popovers" */;
+			buildPhases = (
+				D28A3DA21937EDE100690583 /* Sources */,
+				D28A3DA31937EDE100690583 /* Frameworks */,
+				D28A3DA41937EDE100690583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Popovers;
+			productName = Popovers;
+			productReference = D28A3DA61937EDE100690583 /* Popovers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D28A3DC61937EDE100690583 /* PopoversTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28A3DDB1937EDE100690583 /* Build configuration list for PBXNativeTarget "PopoversTests" */;
+			buildPhases = (
+				D28A3DC31937EDE100690583 /* Sources */,
+				D28A3DC41937EDE100690583 /* Frameworks */,
+				D28A3DC51937EDE100690583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D28A3DCD1937EDE100690583 /* PBXTargetDependency */,
+			);
+			name = PopoversTests;
+			productName = PopoversTests;
+			productReference = D28A3DC71937EDE100690583 /* PopoversTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D28A3D9E1937EDE100690583 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Pinkstone Pictures LLC";
+				TargetAttributes = {
+					D28A3DC61937EDE100690583 = {
+						TestTargetID = D28A3DA51937EDE100690583;
+					};
+				};
+			};
+			buildConfigurationList = D28A3DA11937EDE100690583 /* Build configuration list for PBXProject "Popovers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D28A3D9D1937EDE100690583;
+			productRefGroup = D28A3DA71937EDE100690583 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D28A3DA51937EDE100690583 /* Popovers */,
+				D28A3DC61937EDE100690583 /* PopoversTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D28A3DA41937EDE100690583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28A3DC21937EDE100690583 /* Images.xcassets in Resources */,
+				D28A3DB41937EDE100690583 /* InfoPlist.strings in Resources */,
+				D28A3DBD1937EDE100690583 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28A3DC51937EDE100690583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28A3DD31937EDE100690583 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D28A3DA21937EDE100690583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28A3DC01937EDE100690583 /* ViewController.m in Sources */,
+				D28A3DBA1937EDE100690583 /* AppDelegate.m in Sources */,
+				D28A3DB61937EDE100690583 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28A3DC31937EDE100690583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28A3DD51937EDE100690583 /* PopoversTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D28A3DCD1937EDE100690583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D28A3DA51937EDE100690583 /* Popovers */;
+			targetProxy = D28A3DCC1937EDE100690583 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D28A3DB21937EDE100690583 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D28A3DB31937EDE100690583 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D28A3DBB1937EDE100690583 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D28A3DBC1937EDE100690583 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D28A3DD11937EDE100690583 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D28A3DD21937EDE100690583 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D28A3DD61937EDE100690583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D28A3DD71937EDE100690583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D28A3DD91937EDE100690583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Popovers/Popovers-Prefix.pch";
+				INFOPLIST_FILE = "Popovers/Popovers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D28A3DDA1937EDE100690583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Popovers/Popovers-Prefix.pch";
+				INFOPLIST_FILE = "Popovers/Popovers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D28A3DDC1937EDE100690583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Popovers.app/Popovers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Popovers/Popovers-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PopoversTests/PopoversTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D28A3DDD1937EDE100690583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Popovers.app/Popovers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Popovers/Popovers-Prefix.pch";
+				INFOPLIST_FILE = "PopoversTests/PopoversTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D28A3DA11937EDE100690583 /* Build configuration list for PBXProject "Popovers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28A3DD61937EDE100690583 /* Debug */,
+				D28A3DD71937EDE100690583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28A3DD81937EDE100690583 /* Build configuration list for PBXNativeTarget "Popovers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28A3DD91937EDE100690583 /* Debug */,
+				D28A3DDA1937EDE100690583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D28A3DDB1937EDE100690583 /* Build configuration list for PBXNativeTarget "PopoversTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28A3DDC1937EDE100690583 /* Debug */,
+				D28A3DDD1937EDE100690583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D28A3D9E1937EDE100690583 /* Project object */;
+}
