@@ -21,6 +21,7 @@
 		D28A3DCB1937EDE100690583 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A3DAD1937EDE100690583 /* UIKit.framework */; };
 		D28A3DD31937EDE100690583 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D28A3DD11937EDE100690583 /* InfoPlist.strings */; };
 		D28A3DD51937EDE100690583 /* PopoversTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D28A3DD41937EDE100690583 /* PopoversTests.m */; };
+		D28A3DE01937F17C00690583 /* DateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D28A3DDF1937F17C00690583 /* DateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D28A3DD01937EDE100690583 /* PopoversTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopoversTests-Info.plist"; sourceTree = "<group>"; };
 		D28A3DD21937EDE100690583 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D28A3DD41937EDE100690583 /* PopoversTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopoversTests.m; sourceTree = "<group>"; };
+		D28A3DDE1937F17C00690583 /* DateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateViewController.h; sourceTree = "<group>"; };
+		D28A3DDF1937F17C00690583 /* DateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				D28A3DBB1937EDE100690583 /* Main.storyboard */,
 				D28A3DBE1937EDE100690583 /* ViewController.h */,
 				D28A3DBF1937EDE100690583 /* ViewController.m */,
+				D28A3DDE1937F17C00690583 /* DateViewController.h */,
+				D28A3DDF1937F17C00690583 /* DateViewController.m */,
 				D28A3DC11937EDE100690583 /* Images.xcassets */,
 				D28A3DB01937EDE100690583 /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D28A3DE01937F17C00690583 /* DateViewController.m in Sources */,
 				D28A3DC01937EDE100690583 /* ViewController.m in Sources */,
 				D28A3DBA1937EDE100690583 /* AppDelegate.m in Sources */,
 				D28A3DB61937EDE100690583 /* main.m in Sources */,
