@@ -10,4 +10,4 @@ This demo shows two approaches in two branches:
 
 The master branch doesn't really do anything other than hold this readme file.
 
-Watch the video on how this is created here:
+Watch the video on how this is created here: http://pinkstone.co.uk/how-to-use-popovers-on-ipad/
